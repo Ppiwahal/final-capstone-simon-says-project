@@ -301,7 +301,7 @@ function playComputerTurn() {
   activatePads(computerSequence);
 
   // then hand over to player
-  setTimeout(() => playHumanTurn(roundCount), roundCount * 600 + 1000);
+  setTimeout(() => playHumanTurn(roundCount), 1000);
 }
 
 /**
